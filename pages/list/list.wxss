@@ -1,0 +1,50 @@
+/* pages/list/list.wxss */
+
+.container{ /*整个容器css*/
+  height: 100%;
+  display: table;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  text-align: center;
+}
+
+.title{ /*标题组件css*/
+  font-weight:bold;    /*设置字体加粗*/
+  position: relative;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  border: #ddd 1px solid;
+}
+
+.widget{ /*内容组件css*/
+  position: relative;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  border: #ddd 1px solid;
+}
+
+.column{ /*列css*/
+  width: 4rem;
+  display: table-cell;
+}
+
+.link-column{ /*链接列css*/
+  width: 6rem;
+  display: table-cell;
+}
+
+.link{
+  color: blue;
+  display: inline-table;
+}
